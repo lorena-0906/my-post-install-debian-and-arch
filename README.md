@@ -5,7 +5,11 @@ this script include multiple tools and my favorite shell (fish), i make this on 
 
 for use:
 cd ~/downloads
+
 chmod +x <your-install.sh>
+
 ./endeavour.sh
+
 or
+
 ./debian.sh
