@@ -1,3 +1,4 @@
+
 #!/bin/bash 
 
 echo "hello, this script install multiple tools, include: fish-shell, kitty, git, curl and others disk tools :) install and enable cloudflare dns"
@@ -27,3 +28,5 @@ sudo apt update && sudo apt install cloudflared
 warp-cli registration new
 
 warp-cli connect
+
+chsh -s "$(command -v fish)"
