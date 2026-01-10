@@ -13,3 +13,9 @@ chmod +x <your-install.sh>
 or
 
 ./debian.sh
+
+please if dns don't enable on script run:
+
+warp-cli registration new
+and
+warp-cli connect
