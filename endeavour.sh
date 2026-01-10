@@ -1,7 +1,5 @@
 #!/bin/bash 
 
-echo "please view code of this script before your install."
-
 sudo pacman -S kitty fastfetch flatpak git curl  zenity fish gufw discover vte3 python-requests btrfs-assistant snapper gnome-disk-utility htop baobab wget ncdu ufw code 
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
