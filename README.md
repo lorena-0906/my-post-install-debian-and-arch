@@ -4,7 +4,7 @@ i make this simple script for my instalations (debian and arch. my main OS)
 this script include multiple tools and my favorite shell (fish), i make this on base of MY USE, and please, if you need run this script READING THE SCRIPT 🙏
 
 for use:
-cd ~/downloads
+cd ~/Downloads
 
 chmod +x <your-install.sh>
 
