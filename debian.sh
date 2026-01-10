@@ -1,8 +1,6 @@
 
 #!/bin/bash 
 
-echo "hello, this script install multiple tools, include: fish-shell, kitty, git, curl and others disk tools :) install and enable cloudflare dns"
-
 sudo apt install kitty fastfetch flatpak git curl  zenity fish gufw discover vte3 python-requests gnome-disk-utility bashtop baobab wget ncdu ufw code 
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
