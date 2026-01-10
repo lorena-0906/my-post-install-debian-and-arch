@@ -17,5 +17,7 @@ or
 please if dns don't enable on script run:
 
 warp-cli registration new
+
 and
+
 warp-cli connect
