@@ -6,15 +6,18 @@ i make this simple script for my instalations (debian and arch. my main OS)
 this script include multiple tools and my favorite shell (fish), i make this on base of MY USE, and please, if you need run this script READING THE SCRIPT 🙏
 
 for use:
-cd ~/Downloads
 
-chmod +x <your-install.sh>
+``` https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main ```
 
-./endeavour.sh
+``` cd ~/Downloads ```
+
+``` chmod +x <your-install.sh> ``` 
+
+``` ./endeavour.sh ```
 
 or
 
-./debian.sh
+``` ./debian.sh ``` 
 
 please if dns don't enable on script run:
 
