@@ -7,21 +7,23 @@ this script include multiple tools and my favorite shell (fish), i make this on 
 
 for use:
 
-``` git clone https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main 
-
+debian:
+```
+git clone https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main 
 cd ~/Downloads 
-
-chmod +x <your-install.sh> 
-
-./endeavour.sh 
-
-or
-
+chmod +x debian.sh 
 ./debian.sh 
-
-please if dns don't enable on script (debian)  run:
-
-
-warp-cli registration new 
-
+```
+endeavour:
+```
+git clone https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main 
+cd ~/Downloads 
+chmod +x debian.sh 
+./endeavour.sh 
+``` 
+please if DNS don't enable on script (debian)  run:
+```
+warp-cli registration new
+```
+```
 warp-cli connect
