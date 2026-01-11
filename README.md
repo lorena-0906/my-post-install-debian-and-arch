@@ -18,7 +18,7 @@ endeavour:
 ```
 git clone https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main 
 cd ~/Downloads 
-chmod +x debian.sh 
+chmod +x endeavour.sh 
 ./endeavour.sh 
 ``` 
 please if DNS don't enable on script (debian)  run:
