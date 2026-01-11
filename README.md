@@ -29,4 +29,5 @@ warp-cli registration new
 warp-cli connect
 ```
 or install the .deb ver
+
 ```https://downloads.cloudflareclient.com/v1/download/trixie-intel/version/2025.9.558.0``` 
