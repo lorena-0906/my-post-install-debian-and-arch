@@ -7,7 +7,7 @@ this script include multiple tools and my favorite shell (fish), i make this on 
 
 for use:
 
-``` git clone https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main ```
+``` git clone https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main 
 
 ``` cd ~/Downloads ```
 
