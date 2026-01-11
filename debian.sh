@@ -15,13 +15,12 @@ clear
 
 sudo apt update && sudo apt upgrade 
 
-sudo mkdir -p --mode=0755 /usr/share/keyrings
+curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/
+keyrings/cloudflare-warp-archive-keyring.gpg
 
-curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ trixie main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
 
-echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
-
-sudo apt update && sudo apt install cloudflared
+sudo apt update && sudo apt install cloudflare-warp
 
 warp-cli registration new
 
