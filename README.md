@@ -7,7 +7,7 @@ this script include multiple tools and my favorite shell (fish), i make this on 
 
 for use:
 
-``` https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main ```
+``` git clone https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main ```
 
 ``` cd ~/Downloads ```
 
@@ -19,10 +19,9 @@ or
 
 ``` ./debian.sh ``` 
 
-please if dns don't enable on script run:
+please if dns don't enable on script (debian)  run:
 
-warp-cli registration new
 
-and
+``` warp-cli registration new ```
 
-warp-cli connect
+``` warp-cli connect```
