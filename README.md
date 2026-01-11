@@ -9,19 +9,19 @@ for use:
 
 ``` git clone https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main 
 
-``` cd ~/Downloads ```
+``` cd ~/Downloads 
 
-``` chmod +x <your-install.sh> ``` 
+``` chmod +x <your-install.sh> 
 
-``` ./endeavour.sh ```
+``` ./endeavour.sh 
 
 or
 
-``` ./debian.sh ``` 
+``` ./debian.sh 
 
 please if dns don't enable on script (debian)  run:
 
 
-``` warp-cli registration new ```
+``` warp-cli registration new 
 
-``` warp-cli connect```
+``` warp-cli connect
