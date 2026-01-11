@@ -1,15 +1,21 @@
 
 #!/bin/bash 
 
-sudo apt install kitty fastfetch flatpak git curl  zenity fish gufw discover vte3 python-requests gnome-disk-utility bashtop baobab wget ncdu ufw code 
+sudo apt install kitty fastfetch flatpak git curl  zenity fish gufw discover gnome-disk-utility bashtop baobab wget ncdu ufw  gufw
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 clear 
 
+sudo apt install plasma-discover-backend-flatpak
+
+sudo apt install gnome-software-plugin-flatpak
+
 flatpak install vesktop spotify warehouse flatsweep flatseal bitwarden
 
 curl -fsSL https://linux.toys/install.sh | bash
+
+sudo ufw enable
 
 clear
 
@@ -27,3 +33,6 @@ warp-cli registration new
 warp-cli connect
 
 chsh -s /usr/bin/fish 
+
+curl -fsSL https://linux.toys/install.sh | bash
+
