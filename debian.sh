@@ -26,4 +26,4 @@ warp-cli registration new
 
 warp-cli connect
 
-chsh -s "$(command -v fish)"
+chsh -s /usr/bin/fish 
