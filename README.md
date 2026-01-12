@@ -9,14 +9,14 @@ for use:
 
 debian:
 ```
-git clone https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main 
+wget https://github.com/lorena-0906/my-post-install-debian-and-arch/blob/main/debian.sh
 cd ~/Downloads 
 chmod +x debian.sh 
 ./debian.sh 
 ```
 endeavour:
 ```
-git clone https://github.com/lorena-0906/my-post-install-debian-and-arch/tree/main 
+wget https://github.com/lorena-0906/my-post-install-debian-and-arch/blob/main/endeavour.sh
 cd ~/Downloads 
 chmod +x endeavour.sh 
 ./endeavour.sh 
