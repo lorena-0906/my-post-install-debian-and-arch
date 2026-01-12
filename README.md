@@ -16,7 +16,7 @@ chmod +x debian.sh
 ```
 endeavour:
 ```
-wget https://github.com/lorena-0906/my-post-install-debian-and-arch/blob/main/endeavour.sh
+wget https://raw.githubusercontent.com/lorena-0906/my-post-install-debian-and-arch/refs/heads/main/endeavour.sh
 cd ~/Downloads 
 chmod +x endeavour.sh 
 ./endeavour.sh 
