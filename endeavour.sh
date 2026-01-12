@@ -4,11 +4,7 @@ sudo pacman -S kitty fastfetch flatpak git curl  zenity fish gufw discover pytho
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-curl -fsSLJO https://linux.toys/install.sh
-
-chmod +x install.sh
-
-./install.sh
+curl -fsSL https://linux.toys/install.sh | bash
 
 clear
 
