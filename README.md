@@ -20,7 +20,14 @@ wget https://raw.githubusercontent.com/lorena-0906/my-post-install-debian-and-ar
 cd ~/Downloads 
 chmod +x endeavour.sh 
 ./endeavour.sh 
-``` 
+```
+```
+endeavour legacy (580 nvidia drivers)
+wget https://raw.githubusercontent.com/lorena-0906/my-post-install-debian-and-arch/refs/heads/main/endeavour-legacy.sh
+cd ~/Downloads 
+chmod +x endeavour-legacy.sh 
+./endeavour-legacy.sh 
+```
 please if DNS don't enable on script (debian)  run:
 ```
 warp-cli registration new
