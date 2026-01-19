@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-sudo pacman -S kitty fastfetch flatpak git curl  zenity fish gufw discover python-requests btrfs-assistant snapper gnome-disk-utility bashtop baobab wget ncdu ufw code  gamemode
+sudo pacman -S kitty fastfetch flatpak git curl  zenity fish gufw discover python-requests btrfs-assistant snapper gnome-disk-utility bashtop baobab wget ncdu ufw code  gamemode --noconfirm
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
@@ -26,11 +26,12 @@ warp-cli connect
 
 clear 
 
-flatpak install vesktop spotify warehouse flatsweep flatseal bitwarden lact
+flatpak install discord spotify warehouse flatsweep flatseal bitwarden lact com.obsproject.Studio io.missioncenter.MissionCenter com.heroicgameslauncher.hgl io.ente.photos 
 
 clear 
 
 chsh -s "$(command -v fish)"
 
-yay -Sy nvidia-580xx-utils nvidia-580xx-settings nvidia-580xx-dkms opencl-nvidia-580xx
+yay -Sy nvidia-580xx-utils nvidia-580xx-settings nvidia-580xx-dkms opencl-nvidia-580xx --noconfirm 
 
+exit 
