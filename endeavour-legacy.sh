@@ -6,7 +6,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 clear
 
-yay -S cloudflare-warp-bin
+yay -S cloudflare-warp-bin --noconfirm 
 
 clear
 
