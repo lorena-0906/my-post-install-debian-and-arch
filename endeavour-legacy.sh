@@ -4,8 +4,6 @@ sudo pacman -S kitty fastfetch flatpak git curl  zenity fish gufw discover pytho
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-curl -fsSL https://linux.toys/install.sh | bash
-
 clear
 
 yay -S cloudflare-warp-bin
@@ -33,5 +31,7 @@ clear
 chsh -s "$(command -v fish)"
 
 yay -Sy nvidia-580xx-utils nvidia-580xx-settings nvidia-580xx-dkms opencl-nvidia-580xx --noconfirm 
+
+curl -fsSL https://linux.toys/install.sh | bash
 
 exit 
