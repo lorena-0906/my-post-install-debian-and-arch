@@ -1,6 +1,8 @@
 #!/bin/bash 
 
-sudo pacman -S kitty fastfetch flatpak git curl  zenity fish gufw discover python-requests btrfs-assistant snapper gnome-disk-utility bashtop baobab wget ncdu ufw code  gamemode --noconfirm
+sudo pacman -S kitty fastfetch flatpak git curl zenity fish gufw discover python-requests btrfs-assistant snapper gnome-disk-utility bashtop baobab wget ncdu ufw vte3 gamemode --noconfirm
+
+clear 
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 

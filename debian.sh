@@ -3,6 +3,8 @@
 
 sudo apt install kitty fastfetch flatpak git curl  zenity fish gufw discover gnome-disk-utility bashtop baobab wget ncdu ufw  gufw -y
 
+clear 
+
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 clear 
