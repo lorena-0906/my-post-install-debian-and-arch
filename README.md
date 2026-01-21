@@ -5,6 +5,8 @@ i make this simple script for my instalations (debian and arch. my main OS)
 
 this script include multiple tools and my favorite shell (fish), i make this on base of MY USE, and please, if you need run this script READING THE SCRIPT 🙏
 
+this script use flags -y or --noconfirm, then it downloads:pacman (or apt) and flatpak automatically, unique commando line need manual intervation is curl (linuxtoys :fire:), please READ THIS SCRIPT BEFORE YOUR USE IN YOUR SYSTEM
+
 for use:
 
 debian:
