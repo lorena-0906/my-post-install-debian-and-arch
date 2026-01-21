@@ -30,7 +30,7 @@ cd ~/Downloads
 chmod +x endeavour-legacy.sh 
 ./endeavour-legacy.sh 
 ```
-please if DNS don't enable on script (debian)  run:
+please if DNS don't enable on script run:
 ```
 warp-cli registration new
 ```
