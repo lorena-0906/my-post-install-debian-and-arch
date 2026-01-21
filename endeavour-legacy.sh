@@ -24,7 +24,7 @@ warp-cli connect
 
 clear 
 
-flatpak install discord spotify warehouse flatsweep flatseal bitwarden lact com.obsproject.Studio io.missioncenter.MissionCenter com.heroicgameslauncher.hgl io.ente.photos 
+flatpak install -y spotify warehouse flatsweep flatseal bitwarden lact com.obsproject.Studio io.missioncenter.MissionCenter com.heroicgameslauncher.hgl io.ente.photos com.vscodium.codium  com.discordapp.Discord app.zen_browser.zen
 
 clear 
 
@@ -32,6 +32,6 @@ chsh -s "$(command -v fish)"
 
 yay -Sy nvidia-580xx-utils nvidia-580xx-settings nvidia-580xx-dkms opencl-nvidia-580xx --noconfirm 
 
-curl -fsSL https://linux.toys/install.sh | bash
+curl -fsSL https://linux.toys/install.sh | bash 
 
 exit 

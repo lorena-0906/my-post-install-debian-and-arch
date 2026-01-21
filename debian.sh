@@ -11,7 +11,7 @@ sudo apt install plasma-discover-backend-flatpak
 
 sudo apt install gnome-software-plugin-flatpak
 
-flatpak install discord spotify warehouse flatsweep flatseal bitwarden com.obsproject.Studio io.missioncenter.MissionCenter com.heroicgameslauncher.hgl io.ente.photos 
+flatpak install -y spotify warehouse flatsweep flatseal bitwarden com.obsproject.Studio io.missioncenter.MissionCenter com.heroicgameslauncher.hgl io.ente.photos com.vscodium.codium  com.discordapp.Discord  app.zen_browser.zen
 
 sudo ufw enable
 
@@ -21,7 +21,7 @@ sudo apt update && sudo apt upgrade
 
 chsh -s /usr/bin/fish 
 
-curl -fsSL https://linux.toys/install.sh | bash
+curl -fsSL https://linux.toys/install.sh | bash 
 
 exit 
 
