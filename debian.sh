@@ -1,5 +1,4 @@
-
-#!/bin/bash 
+#!/usr/bin/env bash
 
 sudo apt install kitty fastfetch flatpak git curl  zenity fish gufw discover gnome-disk-utility bashtop baobab wget ncdu ufw  gufw -y
 
