@@ -41,3 +41,12 @@ or install the .deb ver
 
 ```https://downloads.cloudflareclient.com/v1/download/trixie-intel/version/2025.9.558.0``` 
 
+if flatpak don't run, please run this script
+```
+wget https://raw.githubusercontent.com/lorena-0906/my-post-install-debian-and-arch/refs/heads/main/flatpak.sh
+cd ~/Downloads 
+chmod +x flatpak.sh 
+./flatpak.sh 
+```
+
+remember, this script work for my personal workspace, idk if this work for another person.
